@@ -1,0 +1,106 @@
+.container{
+    width: 100%; 
+     height: 100vh; 
+     display: flex ;
+     align-items: center;
+    justify-content: center;
+    } 
+    .pig
+    {
+    position: relative; 
+     height:200px; 
+     width: 200px; 
+    border-radius: 50%; 
+    background-color:rgb(185, 149, 163);
+    } 
+    .face{ height: 10%; width: 130%; position: relative; 
+    }
+    .eye1
+    {
+    width:100%; 
+    border-radius: 50%;
+   text-align: center; 
+   position: absolute; 
+   top:40px; right:27px;
+   } 
+   .eye1
+    span{ display: inline-block;
+     margin: 0 12PX;
+    width: 50px; 
+    height:50px; 
+    border-radius: 50%; 
+    background-color: aliceblue;
+    border : 8px solid black;
+    }
+    .eye2
+    {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:black;
+    top:65px; left:45px; 
+    }
+    .eye3
+    {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    position: absolute; 
+    background-color:black;
+    top:65px; left:140px;
+    }
+    .mouth
+    {
+    width: 80px;
+    height: 40px;
+    border-radius: 30% 30% 30% 30% ;
+    position: absolute;
+    background-color:antiquewhite;
+    top: 130px;
+    left:60px;
+    border : 4px solid black;
+    }
+    .eye4{
+        width: 20px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        background-color:black;
+        top:140px;
+        left:70px;
+    }
+    .eye5{
+        width: 20px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        background-color:black;
+        top:140px;
+        left:120px;
+        
+    }
+    .ear1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position:absolute;
+        background-color:rgb(185, 149, 163);
+        
+        
+    }
+    .ear2{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color:rgb(185, 149, 163);
+        position: absolute;
+        left: 160px;
+    
+        
+    }
+    
+        
+    
+
+                                                
